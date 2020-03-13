@@ -2,35 +2,44 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tab Challenge</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="tabs.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tab Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tabs.js" defer></script>
 </head>
 
 <body>
-	<ul>
-		<li data-tab-target="#tab-1-content">Tab 1</li>
-		<li data-tab-target="#tab-2-content">Tab 2</li>
-		<li data-tab-target="#tab-3-content">Tab 3</li>
-	</ul>
+    <ul class="tabs">
+        <li data-tab-target="#tab-1-content" class="active tab">Tab 1</li>
+        <li data-tab-target="#tab-2-content" class="tab">Tab 2</li>
+        <li data-tab-target="#tab-3-content" class="tab">Tab 3</li>
+    </ul>
 
-	<div class="tab-content">
-		<div id="tab-1-content" data-tab-content>
-			<h1>Tab 1</h1>
-			<p>This is some text for tab 1</p>
-		</div>
-		<div id="tab-2-content" data-tab-content>
-			<h1>Tab 2</h1>
-			<p>This is some text for tab 2</p>
-		</div>
-		<div id="tab-3-content" data-tab-content>
-			<h1>Tab 3</h1>
-			<p>This is some text for tab 2</p>
-		</div>
-	</div>
+    <div class="tab-content">
+        <div id="tab-1-content" data-tab-content class="active">
+            <h1>Tab 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra magna in gravida iaculis. Vivamus ut tempus nunc. In in mi at nibh scelerisque vestibulum. Aenean at tortor leo. Duis sodales porta arcu. Sed at magna vulputate, venenatis
+                nunc ac, ullamcorper dolor.</p>
+
+            <p>In hac habitasse platea dictumst. Vivamus et erat diam. Pellentesque dui augue, molestie at rhoncus vel, iaculis vitae eros. Sed posuere ipsum a elementum ultrices. Etiam et ipsum dignissim, tincidunt nulla quis, vestibulum felis.</p>
+        </div>
+        <div id="tab-2-content" data-tab-content>
+            <h1>Tab 2</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra magna in gravida iaculis. Vivamus ut tempus nunc. In in mi at nibh scelerisque vestibulum. Aenean at tortor leo. Duis sodales porta arcu. Sed at magna vulputate, venenatis
+                nunc ac, ullamcorper dolor.</p>
+
+            <p>In hac habitasse platea dictumst. Vivamus et erat diam. Pellentesque dui augue, molestie at rhoncus vel, iaculis vitae eros. Sed posuere ipsum a elementum ultrices. Etiam et ipsum dignissim, tincidunt nulla quis, vestibulum felis.</p>
+        </div>
+        <div id="tab-3-content" data-tab-content>
+            <h1>Tab 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra magna in gravida iaculis. Vivamus ut tempus nunc. In in mi at nibh scelerisque vestibulum. Aenean at tortor leo. Duis sodales porta arcu. Sed at magna vulputate, venenatis
+                nunc ac, ullamcorper dolor.</p>
+
+            <p>In hac habitasse platea dictumst. Vivamus et erat diam. Pellentesque dui augue, molestie at rhoncus vel, iaculis vitae eros. Sed posuere ipsum a elementum ultrices. Etiam et ipsum dignissim, tincidunt nulla quis, vestibulum felis.</p>
+        </div>
+    </div>
 
 </body>
 

@@ -10,4 +10,25 @@ body {
 
 .active[data-tab-content] {
     display: block;
+    flex: 0, 0, 120px;
+    background-color: #fff;
+    color: #032F61;
+    padding: 8px;
+}
+
+.tabs {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tab.active {
+    background-color: #fff;
+    border-top: 2px solid #06A7A9;
+}
+
+.tab {
+    padding: 10px 15px;
+    background-color: #E2E8EB;
 }

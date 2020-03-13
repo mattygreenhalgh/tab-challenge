@@ -31,4 +31,5 @@ body {
 .tab {
     padding: 10px 15px;
     background-color: #E2E8EB;
+    cursor: pointer;
 }

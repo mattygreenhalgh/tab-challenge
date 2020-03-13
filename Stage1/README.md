@@ -1,14 +1,17 @@
 # Tab interview task
 
 ## Intro
+
 Your client within your team has requested a tab component for their site. The work was approved and handed to the team designer designer, who has created a design for large screens in Sketch however they haven't done anything for small screens. They have now gone on holiday with the work unfinished and you have the task to complete the work.
 
 ## Component Considerations
+
 - The tab component is to be managed by the client
 - The client will be inserting it on the pages via their CMS
 - It is a global website that has a broad range of customers
 
 ## Task Considerations
+
 Develop the tab component however you feel it should be developed, using the technique you feel is most appropriate. There are a couple of requirements from us:
 
 - If you use scripting please only use vanilla JavaScript
@@ -18,10 +21,10 @@ Develop the tab component however you feel it should be developed, using the tec
 - Focus on what you percieve to be the most important aspects first.
 
 ## Designs
+
 The designer has got to this point with the component which is [available in a Sketch file](tab-component.sketch) or [on SKtech cloud](https://sketch.cloud/s/zbprM), for the purposes of this task don't worry about matching the font.
 
 ![Tab design](tab-component.jpg)
-
 
 ## Acceptance criteria:
 
